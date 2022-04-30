@@ -109,21 +109,22 @@ h1.select {
     max-width: 400px;
   }
   .first {
-    margin-top: 91px;
-    margin-left: -51px;
+    margin-top: 76px;
+    margin-left: -24px;
     width: 197px;
   }
 
   .second {
-    margin-top: 321px;
-    margin-left: -96px;
+    margin-top: 325px;
+    margin-left: -101px;
     width: 209px;
-    clip-path: polygon(29% 5%, 28% 33%, 91% 47%);
+    clip-path: polygon(29% 5%, 28% 33%, 91% 47.5%);
   }
 
   .last {
-    margin-top: -142%;
+    margin-top: -575px;
     margin-right: 49px;
     width: 287px;
+    clip-path: polygon(54.5% 11%, 18% 79%, 95% 80%);
   }
 }
