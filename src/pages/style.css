@@ -1,0 +1,129 @@
+.select {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  color: #ffffff;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("./images/background.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flag-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.flag {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+}
+
+.flag a img {
+  width: 100%;
+}
+
+.first {
+  margin-left: 80px;
+  width: 400px;
+
+  clip-path: polygon(76% 10%, 21% 90%, 74% 65%);
+  overflow: hidden;
+}
+.first:hover {
+  opacity: 0.5;
+}
+
+.second {
+  margin-left: -201px;
+  width: 400px;
+  height: 496px;
+
+  clip-path: polygon(29% 9%, 28% 63%, 90% 89%);
+  overflow: hidden;
+}
+.second:hover {
+  opacity: 0.5;
+}
+
+.last {
+  display: block;
+  margin-top: -216px;
+  margin-right: -62px;
+  position: relative;
+  width: 597px;
+
+  clip-path: polygon(53.5% 10%, 18% 79%, 94% 80%);
+  overflow: hidden;
+}
+.last:hover {
+  opacity: 0.5;
+}
+
+.heading {
+  position: absolute;
+  left: auto;
+  right: auto;
+  width: 100%;
+  height: 50vh;
+}
+
+h1.select {
+  padding-top: 4%;
+  font-size: 72px;
+}
+
+@media (max-width: 700px) {
+  h1.select {
+    font-size: 40px;
+    padding-top: 9%;
+  }
+}
+
+@media (max-width: 620px) {
+  h1.select {
+    padding-top: 25%;
+  }
+
+  .flag {
+    max-width: 400px;
+  }
+  .first {
+    margin-top: 91px;
+    margin-left: -51px;
+    width: 197px;
+  }
+
+  .second {
+    margin-top: 321px;
+    margin-left: -96px;
+    width: 209px;
+    clip-path: polygon(29% 5%, 28% 33%, 91% 47%);
+  }
+
+  .last {
+    margin-top: -142%;
+    margin-right: 49px;
+    width: 287px;
+  }
+}
